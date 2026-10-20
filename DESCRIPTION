@@ -1,0 +1,7 @@
+Package: titanicsurvivalmodels
+Title: Titanic Survival Models
+Version: 1.0.0
+Authors@R: person("Abhinav", "Tanwar", role = c("aut", "cre"), email = "abhinav.t@careeritjob.com")
+Description: Reproducible classifier comparison using explicitly synthetic demonstration data.
+License: file LICENSE
+Imports: MASS, jsonlite
