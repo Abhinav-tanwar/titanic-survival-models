@@ -1,0 +1,50 @@
+{
+  "data": "synthetic demonstration; not historical passengers",
+  "train_rows": 839,
+  "test_rows": 361,
+  "positive_class": "1 = survived",
+  "LDA_simple": {
+    "accuracy": 0.6897506925208,
+    "confusion": [
+      [163, 54],
+      [58, 86]
+    ],
+    "recall": 0.5972222222222,
+    "precision": 0.6142857142857,
+    "balanced_accuracy": 0.6741871479775,
+    "roc_auc": 0.7257264464926
+  },
+  "LDA_full": {
+    "accuracy": 0.7063711911357,
+    "confusion": [
+      [169, 48],
+      [58, 86]
+    ],
+    "recall": 0.5972222222222,
+    "precision": 0.6417910447761,
+    "balanced_accuracy": 0.6880120327701,
+    "roc_auc": 0.7337109575013
+  },
+  "QDA_simple": {
+    "accuracy": 0.6620498614958,
+    "confusion": [
+      [130, 87],
+      [35, 109]
+    ],
+    "recall": 0.7569444444444,
+    "precision": 0.5561224489796,
+    "balanced_accuracy": 0.6780113927291,
+    "roc_auc": 0.7257264464926
+  },
+  "Logistic": {
+    "accuracy": 0.6897506925208,
+    "confusion": [
+      [163, 54],
+      [58, 86]
+    ],
+    "recall": 0.5972222222222,
+    "precision": 0.6142857142857,
+    "balanced_accuracy": 0.6741871479775,
+    "roc_auc": 0.7257264464926
+  }
+}

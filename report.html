@@ -1,0 +1,74 @@
+<!doctype html><meta charset="utf-8"><title>titanic-survival-models</title><style>body{font:17px system-ui;max-width:980px;margin:50px auto;padding:20px;color:#17283b}pre{background:#edf2f7;padding:24px;overflow:auto}img{max-width:100%}</style><h1>Titanic Survival Models</h1><p>Executed R analysis. See README for methodology, provenance, and limitations.</p><p><strong>Synthetic demonstration data; not historical passengers.</strong></p><h2>Measured results</h2><pre>{
+  &quot;data&quot;: &quot;synthetic demonstration; not historical passengers&quot;,
+  &quot;train_rows&quot;: 839,
+  &quot;test_rows&quot;: 361,
+  &quot;positive_class&quot;: &quot;1 = survived&quot;,
+  &quot;LDA_simple&quot;: {
+    &quot;accuracy&quot;: 0.6897506925208,
+    &quot;confusion&quot;: [
+      [
+        163,
+        54
+      ],
+      [
+        58,
+        86
+      ]
+    ],
+    &quot;recall&quot;: 0.5972222222222,
+    &quot;precision&quot;: 0.6142857142857,
+    &quot;balanced_accuracy&quot;: 0.6741871479775,
+    &quot;roc_auc&quot;: 0.7257264464926
+  },
+  &quot;LDA_full&quot;: {
+    &quot;accuracy&quot;: 0.7063711911357,
+    &quot;confusion&quot;: [
+      [
+        169,
+        48
+      ],
+      [
+        58,
+        86
+      ]
+    ],
+    &quot;recall&quot;: 0.5972222222222,
+    &quot;precision&quot;: 0.6417910447761,
+    &quot;balanced_accuracy&quot;: 0.6880120327701,
+    &quot;roc_auc&quot;: 0.7337109575013
+  },
+  &quot;QDA_simple&quot;: {
+    &quot;accuracy&quot;: 0.6620498614958,
+    &quot;confusion&quot;: [
+      [
+        130,
+        87
+      ],
+      [
+        35,
+        109
+      ]
+    ],
+    &quot;recall&quot;: 0.7569444444444,
+    &quot;precision&quot;: 0.5561224489796,
+    &quot;balanced_accuracy&quot;: 0.6780113927291,
+    &quot;roc_auc&quot;: 0.7257264464926
+  },
+  &quot;Logistic&quot;: {
+    &quot;accuracy&quot;: 0.6897506925208,
+    &quot;confusion&quot;: [
+      [
+        163,
+        54
+      ],
+      [
+        58,
+        86
+      ]
+    ],
+    &quot;recall&quot;: 0.5972222222222,
+    &quot;precision&quot;: 0.6142857142857,
+    &quot;balanced_accuracy&quot;: 0.6741871479775,
+    &quot;roc_auc&quot;: 0.7257264464926
+  }
+}</pre>
